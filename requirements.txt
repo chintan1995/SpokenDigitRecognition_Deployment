@@ -1,8 +1,8 @@
 Cython
-tensorflow-cpu
+tensorflow-cpu==2.3.0
 scikit-learn==0.22.2.post1
-numpy
-pandas
-librosa
-pathlib
+numpy==1.18.5
+pandas==1.1.5
+librosa==0.8.1
+pathlib==1.0.1
 streamlit
