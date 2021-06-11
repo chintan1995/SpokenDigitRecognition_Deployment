@@ -1,8 +1,8 @@
 Cython
+tensorflow-cpu
+scikit-learn==0.22.2.post1
 numpy
 pandas
 librosa
 pathlib
-tensorflow-cpu
-scikit-learn
 streamlit
