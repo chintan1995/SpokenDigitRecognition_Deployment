@@ -1,3 +1,3 @@
 # SpokenDigitRecognition_Deployment
 
-This repo is only used in Heroku for app deployment.
+This repo is used only for Heroku app deployment
