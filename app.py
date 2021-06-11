@@ -154,10 +154,11 @@ def main():
         
         processing_text= st.empty()
         if uploaded_file is not None:
-            uploaded_file = uploaded_file.name
-            audio_file = open(uploaded_file, 'rb')
-            audio_bytes = audio_file.read()
-            st.audio(audio_bytes, format='audio/ogg')
+            #uploaded_file = uploaded_file.name
+            #audio_file = open(uploaded_file, 'rb')
+            #audio_bytes = audio_file.read()
+            #st.audio(audio_bytes, format='audio/ogg')
+            st.audio(uploaded_file, format='audio/ogg')   ###
             
             processing_text.text("Processing the audio...")
             input_audio = preprocess_audio(uploaded_file)
