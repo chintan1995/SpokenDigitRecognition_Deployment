@@ -4,5 +4,5 @@ pandas
 librosa
 pathlib
 tensorflow
-scikit-learn==0.22.2.post1
+scikit-learn
 streamlit
